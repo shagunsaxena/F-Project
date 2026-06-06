@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.countContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #d6bcbc;
+}
+
+.countContainer h1{
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.countContainer .counterDisplay{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 450px;
+    height:100px;
+    background-color: #fff;
+    padding:20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.counterDisplay #counterLabel{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #6f2e2e;
+}
+
+.counterDisplay #counterValue{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #6f2e2e;
+}
+
+.countContainer .counterButtons{
+    display: flex;
+    gap: 30px;
+}
+
+.counterButtons button{
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #6f2e2e;
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+.counterButtons button:hover{
+    background-color: #a95555;
+}
+
+.counterButtons button:active{
+    background-color: #260b0b;
+}
