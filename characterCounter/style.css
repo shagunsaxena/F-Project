@@ -1,0 +1,59 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.mainContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0e4e4;
+}
+
+.mainContainer h1{
+    font-size: 3rem;
+    color:#333;
+    margin-bottom: 20px;
+}
+
+.mainContainer textarea {
+    width: 350px;
+    height: 150px;
+    padding: 10px;
+}
+
+.mainContainer .counterContainer{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.mainContainer .counterContainer span{
+    font-size: 1.5rem;
+    color: #555;
+    font-weight: 500;
+}
+
+
+.mainContainer .countClearContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 250px;
+}
+
+.mainContainer .countClearContainer button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
