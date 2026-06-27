@@ -1,0 +1,13 @@
+:root{
+  --hero-text: #ffc94b;
+  --main-bg: #FDF0D5;
+  --main-text: #5e4074;
+
+  --footer-bg: #00555a;
+  --footer-text: #FFFDD0;
+
+  --nav-text: #FFFAFA;
+
+  --glass-bg: rgba(255,255,255,0.1);
+  --glass-border: rgba(255,255,255,0.2);
+}
