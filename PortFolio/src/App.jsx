@@ -30,6 +30,7 @@ function App() {
       </main>
 
       <ScrollToTop />
+      
       <Footer />
     </>
   );
