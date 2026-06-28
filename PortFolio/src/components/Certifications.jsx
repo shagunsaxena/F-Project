@@ -4,27 +4,27 @@ import { FaCertificate } from "react-icons/fa";
 
 const certifications = [
   {
-    title: "Certified Scrum Product Owner (CSPO)",
-    issuer: "Scrum Alliance",
-    date: "2025",
+    title: "Generative AI Overview for Project Managers",
+    issuer: "Project Management Institute",
+    date: "2026",
+    link: "https://www.credly.com/badges/24f6c747-f5ac-446e-890e-f3903d778dae",
+  },
+  {
+    title: "AI Business Analysis",
+    issuer: "IIBA",
+    date: "2026",
     link: "#",
   },
   {
-    title: "Professional Scrum Master (PSM-I)",
-    issuer: "Scrum.org",
+    title: "Agile Methodology",
+    issuer: "Cognizant",
     date: "2024",
     link: "#",
   },
   {
-    title: "React Developer Certification",
-    issuer: "Coursera",
-    date: "2024",
-    link: "#",
-  },
-  {
-    title: "Business Analysis Fundamentals",
+    title: "React Course",
     issuer: "Udemy",
-    date: "2023",
+    date: "2025",
     link: "#",
   },
 ];

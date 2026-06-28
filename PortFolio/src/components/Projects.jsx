@@ -12,34 +12,35 @@ const projects = [
       "https://images.unsplash.com/photo-1461749280684-dccba630e2f6",
     tech: ["React","JS", "CSS", "Responsive Design"],
     github: "#",
-    demo: "#",
+    demo: "https://www.shagunsaxena.in",
   },
   {
-    title: "Task Management App",
+    title: "AI ChatBot",
     description:
-      "React based task manager with CRUD operations and local storage.",
+      "AI ChatBot created using Google Gemini API. Look and feel same as gemini ",
     image:
       "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
-    tech: ["React", "JavaScript", "Local Storage"],
-    github: "#",
-    demo: "#",
+    tech: ["HTML", "JavaScript", "CSS", "Gemini API"],
+    github: "https://github.com/shagunsaxena/F-Project/tree/master/aiChatBot",
+    demo: "https://f-project-aichatbot.vercel.app/",
   },
   {
     title: "Product Case Study",
     description:
-      "Product thinking exercise covering user problems, prioritization and roadmap planning.",
+      "The objective of this project is to design and develop a premium, interactive product microsite.",
     image:
       "https://images.unsplash.com/photo-1552664730-d307ca884978",
-    tech: ["Product Strategy", "Research", "Roadmapping"],
-    github: "#",
-    demo: "#",
+    tech: ["BRD", "FRD", "SRS", "UAT"],
+    github: "https://github.com/shagunsaxena/F-Project/tree/master/CaseStudyDoc",
+    demo: "https://github.com/shagunsaxena/F-Project/tree/master/CaseStudyDoc",
   },
+  
 ];
 
 
 const Projects = () => {
   return (
-    <section id="project" className="project-section">
+    <section id="projects" className="project-section">
       <div className="project-container">
         <h2>Featured Projects</h2>
 

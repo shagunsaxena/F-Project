@@ -5,6 +5,7 @@ import {
   FaGithub,
   FaEnvelope,
   FaPhone,
+  FaMediumM,
 } from "react-icons/fa";
 
 const Footer = () => {
@@ -58,10 +59,10 @@ const Footer = () => {
             </a>
 
             <a
-              href="https://github.com/shagunsaxena"
+              href="https://medium.com/@shagunsaxena"
               target="_blank"
             >
-              <FaGithub />
+              <FaMediumM />
             </a>
 
 
